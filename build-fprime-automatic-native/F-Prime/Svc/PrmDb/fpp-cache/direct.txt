@@ -1,0 +1,4 @@
+/home/jadalja/test/t1/fprime/Fw/Cmd/Cmd.fpp
+/home/jadalja/test/t1/fprime/Fw/Log/Log.fpp
+/home/jadalja/test/t1/fprime/Fw/Prm/Prm.fpp
+/home/jadalja/test/t1/fprime/Svc/Ping/Ping.fpp

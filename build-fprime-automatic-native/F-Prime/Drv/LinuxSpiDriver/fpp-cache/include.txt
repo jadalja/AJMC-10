@@ -1,0 +1,2 @@
+/home/jadalja/test/t1/fprime/Drv/LinuxSpiDriver/Events.fppi
+/home/jadalja/test/t1/fprime/Drv/LinuxSpiDriver/Telemetry.fppi

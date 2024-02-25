@@ -1,0 +1,2 @@
+/home/jadalja/test/t1/fprime/Svc/Fatal/Fatal.fpp
+/home/jadalja/test/t1/fprime/config/FpConfig.fpp

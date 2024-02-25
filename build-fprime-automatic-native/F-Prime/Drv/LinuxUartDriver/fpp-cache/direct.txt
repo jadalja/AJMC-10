@@ -1,0 +1,5 @@
+/home/jadalja/test/t1/fprime/Drv/ByteStreamDriverModel/ByteStreamDriverModel.fpp
+/home/jadalja/test/t1/fprime/Drv/LinuxUartDriver/Events.fppi
+/home/jadalja/test/t1/fprime/Drv/LinuxUartDriver/Telemetry.fppi
+/home/jadalja/test/t1/fprime/Fw/Log/Log.fpp
+/home/jadalja/test/t1/fprime/Fw/Tlm/Tlm.fpp

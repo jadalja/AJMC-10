@@ -1,0 +1,3 @@
+/home/jadalja/test/t1/fprime/Svc/FileManager/Commands.fppi
+/home/jadalja/test/t1/fprime/Svc/FileManager/Events.fppi
+/home/jadalja/test/t1/fprime/Svc/FileManager/Telemetry.fppi

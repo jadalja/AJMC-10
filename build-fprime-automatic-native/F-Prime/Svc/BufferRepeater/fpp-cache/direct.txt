@@ -1,0 +1,3 @@
+/home/jadalja/test/t1/fprime/Fw/Buffer/Buffer.fpp
+/home/jadalja/test/t1/fprime/Fw/Log/Log.fpp
+/home/jadalja/test/t1/fprime/config/AcConstants.fpp

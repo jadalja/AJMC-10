@@ -1,0 +1,2 @@
+/home/jadalja/test/t1/fprime/Drv/LinuxUartDriver/Events.fppi
+/home/jadalja/test/t1/fprime/Drv/LinuxUartDriver/Telemetry.fppi

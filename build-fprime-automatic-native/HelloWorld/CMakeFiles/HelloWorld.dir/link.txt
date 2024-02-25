@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../lib/Linux/libHelloWorld.a CMakeFiles/HelloWorld.dir/HelloWorld.cpp.o CMakeFiles/HelloWorld.dir/HelloWorldComponentAc.cpp.o
+/usr/bin/ranlib ../lib/Linux/libHelloWorld.a

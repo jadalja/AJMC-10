@@ -1,0 +1,2 @@
+/home/jadalja/test/t1/fprime/Fw/Log/Log.fpp
+/home/jadalja/test/t1/fprime/Svc/AssertFatalAdapter/AssertFatalEvents.fppi

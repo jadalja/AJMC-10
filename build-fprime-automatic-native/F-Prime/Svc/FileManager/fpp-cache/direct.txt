@@ -1,0 +1,7 @@
+/home/jadalja/test/t1/fprime/Fw/Cmd/Cmd.fpp
+/home/jadalja/test/t1/fprime/Fw/Log/Log.fpp
+/home/jadalja/test/t1/fprime/Fw/Tlm/Tlm.fpp
+/home/jadalja/test/t1/fprime/Svc/FileManager/Commands.fppi
+/home/jadalja/test/t1/fprime/Svc/FileManager/Events.fppi
+/home/jadalja/test/t1/fprime/Svc/FileManager/Telemetry.fppi
+/home/jadalja/test/t1/fprime/Svc/Ping/Ping.fpp

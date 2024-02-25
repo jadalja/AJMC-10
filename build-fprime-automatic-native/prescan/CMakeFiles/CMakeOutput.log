@@ -1,0 +1,75 @@
+The system is: Linux - 5.15.0-94-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/jadalja/test/t1/build-fprime-automatic-native/prescan/CMakeFiles/3.22.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/jadalja/test/t1/build-fprime-automatic-native/prescan/CMakeFiles/3.22.1/CompilerIdCXX/a.out"
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/jadalja/test/t1/build-fprime-automatic-native/prescan/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bb6f6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bb6f6.dir/build.make CMakeFiles/cmTC_bb6f6.dir/build
+gmake[1]: Entering directory '/home/jadalja/test/t1/build-fprime-automatic-native/prescan/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bb6f6.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_bb6f6.dir/CheckIncludeFile.c.o -c /home/jadalja/test/t1/build-fprime-automatic-native/prescan/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_bb6f6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb6f6.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_bb6f6.dir/CheckIncludeFile.c.o -o cmTC_bb6f6 
+gmake[1]: Leaving directory '/home/jadalja/test/t1/build-fprime-automatic-native/prescan/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/jadalja/test/t1/build-fprime-automatic-native/prescan/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e7fd6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e7fd6.dir/build.make CMakeFiles/cmTC_e7fd6.dir/build
+gmake[1]: Entering directory '/home/jadalja/test/t1/build-fprime-automatic-native/prescan/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e7fd6.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -std=c99 -o CMakeFiles/cmTC_e7fd6.dir/src.c.o -c /home/jadalja/test/t1/build-fprime-automatic-native/prescan/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e7fd6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7fd6.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_e7fd6.dir/src.c.o -o cmTC_e7fd6 
+gmake[1]: Leaving directory '/home/jadalja/test/t1/build-fprime-automatic-native/prescan/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+

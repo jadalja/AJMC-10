@@ -1,0 +1,7 @@
+/home/jadalja/test/t1/fprime/Fw/Buffer/Buffer.fpp
+/home/jadalja/test/t1/fprime/Fw/Log/Log.fpp
+/home/jadalja/test/t1/fprime/Fw/Time/Time.fpp
+/home/jadalja/test/t1/fprime/Fw/Tlm/Tlm.fpp
+/home/jadalja/test/t1/fprime/Svc/FileUplink/Events.fppi
+/home/jadalja/test/t1/fprime/Svc/FileUplink/Telemetry.fppi
+/home/jadalja/test/t1/fprime/Svc/Ping/Ping.fpp
